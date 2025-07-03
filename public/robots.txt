@@ -1,0 +1,77 @@
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://newshubpro.org/sitemap.xml
+
+# Google News Bot
+User-agent: Googlebot-News
+Allow: /
+
+# Crawl delay for all bots (optional)
+Crawl-delay: 1
+
+# Disallow admin areas (if any)
+Disallow: /admin/
+Disallow: /private/
+
+# Allow all content for indexing
+Allow: /article/
+Allow: /category/
+Allow: /
+
+# Additional directives for better SEO
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: YandexBot
+Allow: /
+
+# Social media crawlers
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# News aggregators
+User-agent: AppleNewsBot
+Allow: /
+
+User-agent: FlipboardProxy
+Allow: /
+
+# SEO and analytics bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
+
+# Block unwanted bots
+User-agent: SemrushBot-SA
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /

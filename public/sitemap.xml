@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  
+  <!-- Homepage -->
+  <url>
+    <loc>https://newshubpro.org/</loc>
+    <lastmod>2024-01-20T10:00:00Z</lastmod>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  
+  <!-- Category Pages -->
+  <url>
+    <loc>https://newshubpro.org/category/politics</loc>
+    <lastmod>2024-01-20T10:00:00Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://newshubpro.org/category/business</loc>
+    <lastmod>2024-01-20T10:00:00Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://newshubpro.org/category/entertainment</loc>
+    <lastmod>2024-01-20T10:00:00Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://newshubpro.org/category/sports</loc>
+    <lastmod>2024-01-20T10:00:00Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://newshubpro.org/category/technology</loc>
+    <lastmod>2024-01-20T10:00:00Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://newshubpro.org/category/health</loc>
+    <lastmod>2024-01-20T10:00:00Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://newshubpro.org/category/world-news</loc>
+    <lastmod>2024-01-20T10:00:00Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://newshubpro.org/category/science</loc>
+    <lastmod>2024-01-20T10:00:00Z</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <!-- SEO-Friendly Article URLs -->
+  <url>
+    <loc>https://newshubpro.org/category/business/federal-reserve-emergency-rate-cut-banking-concerns</loc>
+    <lastmod>2024-01-20T09:30:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>NewsHubPro</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-20T09:30:00Z</news:publication_date>
+      <news:title><![CDATA[Federal Reserve Announces Emergency Rate Cut Amid Banking Sector Concerns]]></news:title>
+      <news:keywords>Federal Reserve, Interest Rates, Banking Crisis, Emergency Policy, Financial Stability</news:keywords>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.pexels.com/photos/6801648/pexels-photo-6801648.jpeg</image:loc>
+      <image:title><![CDATA[Federal Reserve Emergency Rate Cut]]></image:title>
+      <image:caption><![CDATA[Federal Reserve building during emergency policy announcement]]></image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://newshubpro.org/category/technology/ibm-quantum-computing-milestone-1000-qubit-processor</loc>
+    <lastmod>2024-01-19T14:15:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>NewsHubPro</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-19T14:15:00Z</news:publication_date>
+      <news:title><![CDATA[IBM Achieves Quantum Computing Milestone with 1000-Qubit Processor]]></news:title>
+      <news:keywords>Quantum Computing, IBM, Technology Breakthrough, Innovation, Scientific Research</news:keywords>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.pexels.com/photos/8386440/pexels-photo-8386440.jpeg</image:loc>
+      <image:title><![CDATA[IBM Quantum Computing Breakthrough]]></image:title>
+      <image:caption><![CDATA[IBM quantum computer processor technology]]></image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://newshubpro.org/category/world-news/turkey-syria-earthquake-international-aid-response</loc>
+    <lastmod>2024-01-18T11:45:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>NewsHubPro</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-18T11:45:00Z</news:publication_date>
+      <news:title><![CDATA[Major Earthquake Strikes Turkey-Syria Border as International Aid Mobilizes]]></news:title>
+      <news:keywords>Earthquake, Turkey, Syria, Natural Disaster, International Aid, Emergency Response</news:keywords>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.pexels.com/photos/9324316/pexels-photo-9324316.jpeg</image:loc>
+      <image:title><![CDATA[Turkey-Syria Earthquake Response]]></image:title>
+      <image:caption><![CDATA[International aid response to Turkey-Syria earthquake]]></image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://newshubpro.org/category/sports/buffalo-bills-defeat-chiefs-afc-championship</loc>
+    <lastmod>2024-01-17T22:15:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>NewsHubPro</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-17T22:15:00Z</news:publication_date>
+      <news:title><![CDATA[Buffalo Bills Defeat Chiefs in Overtime Thriller to Reach AFC Championship]]></news:title>
+      <news:keywords>NFL, Buffalo Bills, Kansas City Chiefs, Playoffs, AFC Championship, Josh Allen</news:keywords>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.pexels.com/photos/1618200/pexels-photo-1618200.jpeg</image:loc>
+      <image:title><![CDATA[Bills vs Chiefs AFC Championship]]></image:title>
+      <image:caption><![CDATA[Buffalo Bills defeat Kansas City Chiefs in playoff upset]]></image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://newshubpro.org/category/entertainment/hollywood-writers-strike-ai-protection-agreement</loc>
+    <lastmod>2024-01-16T16:30:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>NewsHubPro</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-16T16:30:00Z</news:publication_date>
+      <news:title><![CDATA[Hollywood Writers End Historic Strike with AI Protection Agreement]]></news:title>
+      <news:keywords>Hollywood Strike, Writers Guild, AI Protection, Entertainment Industry, Labor Agreement</news:keywords>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.pexels.com/photos/7991579/pexels-photo-7991579.jpeg</image:loc>
+      <image:title><![CDATA[Hollywood Writers Strike Resolution]]></image:title>
+      <image:caption><![CDATA[Hollywood writers reach agreement ending historic strike]]></image:caption>
+    </image:image>
+  </url>
+
+  <!-- Original Articles with SEO-Friendly URLs -->
+  <url>
+    <loc>https://newshubpro.org/category/business/global-economic-summit-climate-change-trade-relations</loc>
+    <lastmod>2024-01-15T10:30:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>NewsHubPro</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-15T10:30:00Z</news:publication_date>
+      <news:title><![CDATA[Global Economic Summit Addresses Climate Change and Trade Relations]]></news:title>
+      <news:keywords>Global Economy, Climate Change, Trade, Summit</news:keywords>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.pexels.com/photos/7078666/pexels-photo-7078666.jpeg</image:loc>
+      <image:title><![CDATA[Global Economic Summit]]></image:title>
+      <image:caption><![CDATA[World leaders gather to discuss climate change and trade relations]]></image:caption>
+    </image:image>
+  </url>
+  
+  <url>
+    <loc>https://newshubpro.org/category/technology/revolutionary-ai-technology-healthcare-diagnosis</loc>
+    <lastmod>2024-01-15T08:15:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>NewsHubPro</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-15T08:15:00Z</news:publication_date>
+      <news:title><![CDATA[Revolutionary AI Technology Transforms Healthcare Diagnosis]]></news:title>
+      <news:keywords>Healthcare, AI, Technology, Medicine</news:keywords>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.pexels.com/photos/3912468/pexels-photo-3912468.jpeg</image:loc>
+      <image:title><![CDATA[AI Healthcare Technology]]></image:title>
+      <image:caption><![CDATA[Revolutionary AI system for medical diagnosis]]></image:caption>
+    </image:image>
+  </url>
+
+  <!-- Sports Articles with SEO-Friendly URLs -->
+  <url>
+    <loc>https://newshubpro.org/category/sports/borussia-dortmund-vs-cf-monterrey-fifa-club-world-cup-analysis</loc>
+    <lastmod>2024-01-21T14:30:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>NewsHubPro</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-21T14:30:00Z</news:publication_date>
+      <news:title><![CDATA[Borussia Dortmund vs C.F. Monterrey: FIFA Club World Cup Showdown Analysis]]></news:title>
+      <news:keywords>FIFA Club World Cup, Borussia Dortmund, C.F. Monterrey, Soccer, International Football</news:keywords>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.pexels.com/photos/1618200/pexels-photo-1618200.jpeg</image:loc>
+      <image:title><![CDATA[Dortmund vs Monterrey FIFA Club World Cup]]></image:title>
+      <image:caption><![CDATA[FIFA Club World Cup match analysis and preview]]></image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://newshubpro.org/category/sports/damian-lillard-trade-milwaukee-bucks-championship-analysis</loc>
+    <lastmod>2024-01-21T16:45:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>NewsHubPro</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-21T16:45:00Z</news:publication_date>
+      <news:title><![CDATA[Damian Lillard Trade Impact: Milwaukee Bucks Roster Transformation and NBA Championship Aspirations]]></news:title>
+      <news:keywords>NBA, Milwaukee Bucks, Damian Lillard, Giannis Antetokounmpo, Basketball Trade</news:keywords>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.pexels.com/photos/1618200/pexels-photo-1618200.jpeg</image:loc>
+      <image:title><![CDATA[Damian Lillard Milwaukee Bucks Trade]]></image:title>
+      <image:caption><![CDATA[Damian Lillard impact on Milwaukee Bucks championship hopes]]></image:caption>
+    </image:image>
+  </url>
+
+  <url>
+    <loc>https://newshubpro.org/category/sports/indiana-fever-vs-minnesota-lynx-wnba-commissioners-cup-analysis</loc>
+    <lastmod>2024-01-21T18:20:00Z</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <news:news>
+      <news:publication>
+        <news:name>NewsHubPro</news:name>
+        <news:language>en</news:language>
+      </news:publication>
+      <news:publication_date>2024-01-21T18:20:00Z</news:publication_date>
+      <news:title><![CDATA[Indiana Fever vs Minnesota Lynx: WNBA Commissioner's Cup Showdown and Rising Stars Analysis]]></news:title>
+      <news:keywords>WNBA, Indiana Fever, Minnesota Lynx, Commissioner's Cup, Women's Basketball</news:keywords>
+    </news:news>
+    <image:image>
+      <image:loc>https://images.pexels.com/photos/1618200/pexels-photo-1618200.jpeg</image:loc>
+      <image:title><![CDATA[Fever vs Lynx WNBA Commissioner's Cup]]></image:title>
+      <image:caption><![CDATA[WNBA Commissioner's Cup matchup analysis]]></image:caption>
+    </image:image>
+  </url>
+
+  <!-- Static Pages -->
+  <url>
+    <loc>https://newshubpro.org/about</loc>
+    <lastmod>2024-01-20T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <url>
+    <loc>https://newshubpro.org/contact</loc>
+    <lastmod>2024-01-20T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <url>
+    <loc>https://newshubpro.org/privacy</loc>
+    <lastmod>2024-01-20T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <url>
+    <loc>https://newshubpro.org/terms</loc>
+    <lastmod>2024-01-20T10:00:00Z</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset>
