@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 interface AdUnitProps {
   adSlot: string;
@@ -19,10 +19,13 @@ const AdUnit: React.FC<AdUnitProps> = ({
   style = { display: 'block' },
   className = ''
 }) => {
+  const adInitialized = useRef(false);
+
   useEffect(() => {
     try {
-      if (window.adsbygoogle) {
+      if (window.adsbygoogle && !adInitialized.current) {
         (window.adsbygoogle = window.adsbygoogle || []).push({});
+        adInitialized.current = true;
       }
     } catch (error) {
       console.error('AdSense error:', error);
