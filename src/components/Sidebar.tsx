@@ -7,7 +7,9 @@ import { trackNewsletterSignup } from '../utils/analytics';
 
 const Sidebar: React.FC = () => {
   const [email, setEmail] = useState('');
-  const trendingArticles = articles.filter(article => article.isTrending).slice(0, 4);
+  const trendingArticles = articles
+    .filter((article) => article.isTrending)
+    .slice(0, 4);
   const recentArticles = articles.slice(0, 5);
 
   const handleNewsletterSubmit = (e: React.FormEvent) => {
@@ -23,32 +25,33 @@ const Sidebar: React.FC = () => {
 
   return (
     <div className="space-y-8">
-      {/* Newsletter Signup */}
-      <div className="bg-gradient-to-br from-primary-600 to-primary-800 rounded-xl p-6 text-white">
-        <h3 className="font-bold text-xl mb-3">Stay Informed</h3>
-        <p className="text-primary-100 mb-4">
-          Get the latest news delivered directly to your inbox every morning.
-        </p>
-        <form onSubmit={handleNewsletterSubmit} className="space-y-3">
-          <input
-            type="email"
-            placeholder="Enter your email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            required
-            className="w-full px-4 py-2 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-accent-400"
-          />
-          <button 
-            type="submit"
-            className="w-full bg-accent-500 hover:bg-accent-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors"
-          >
-            Subscribe Now
-          </button>
-        </form>
+      {/* Trending Articles */}
+      <div className="bg-white rounded-xl shadow-md p-6">
+        <div className="flex items-center mb-4">
+          <Clock className="w-5 h-5 text-primary-600 mr-2" />
+          <h3 className="font-bold text-lg text-gray-900">Trending Now</h3>
+        </div>
+        <div className="space-y-4">
+          {trendingArticles.map((article) => (
+            <ArticleCard key={article.id} article={article} variant="compact" />
+          ))}
+        </div>
       </div>
 
-      {/* Sidebar Ad */}
-      <AdBanner placement="sidebar" />
+      {/* Recent Articles */}
+      <div className="bg-white rounded-xl shadow-md p-6">
+        <h3 className="font-bold text-lg text-gray-900 mb-4">
+          Recent Articles
+        </h3>
+        <div className="space-y-4">
+          {recentArticles.map((article) => (
+            <ArticleCard key={article.id} article={article} variant="compact" />
+          ))}
+        </div>
+      </div>
+
+      {/* Second Sidebar Ad */}
+      <AdBanner placement="sidebar" className="mt-6" />
 
       {/* Trending Topics */}
       <div className="bg-white rounded-xl shadow-md p-6">
@@ -71,31 +74,32 @@ const Sidebar: React.FC = () => {
         </div>
       </div>
 
-      {/* Trending Articles */}
-      <div className="bg-white rounded-xl shadow-md p-6">
-        <div className="flex items-center mb-4">
-          <Clock className="w-5 h-5 text-primary-600 mr-2" />
-          <h3 className="font-bold text-lg text-gray-900">Trending Now</h3>
-        </div>
-        <div className="space-y-4">
-          {trendingArticles.map((article) => (
-            <ArticleCard key={article.id} article={article} variant="compact" />
-          ))}
-        </div>
+      {/* Newsletter Signup */}
+      <div className="bg-gradient-to-br from-primary-600 to-primary-800 rounded-xl p-6 text-white">
+        <h3 className="font-bold text-xl mb-3">Stay Informed</h3>
+        <p className="text-primary-100 mb-4">
+          Get the latest news delivered directly to your inbox every morning.
+        </p>
+        <form onSubmit={handleNewsletterSubmit} className="space-y-3">
+          <input
+            type="email"
+            placeholder="Enter your email"
+            value={email}
+            onChange={(e) => setEmail(e.target.value)}
+            required
+            className="w-full px-4 py-2 rounded-lg text-gray-900 focus:outline-none focus:ring-2 focus:ring-accent-400"
+          />
+          <button
+            type="submit"
+            className="w-full bg-accent-500 hover:bg-accent-600 text-white font-semibold py-2 px-4 rounded-lg transition-colors"
+          >
+            Subscribe Now
+          </button>
+        </form>
       </div>
 
-      {/* Recent Articles */}
-      <div className="bg-white rounded-xl shadow-md p-6">
-        <h3 className="font-bold text-lg text-gray-900 mb-4">Recent Articles</h3>
-        <div className="space-y-4">
-          {recentArticles.map((article) => (
-            <ArticleCard key={article.id} article={article} variant="compact" />
-          ))}
-        </div>
-      </div>
-
-      {/* Second Sidebar Ad */}
-      <AdBanner placement="sidebar" className="mt-6" />
+      {/* Sidebar Ad */}
+      <AdBanner placement="sidebar" />
     </div>
   );
 };
