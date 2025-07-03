@@ -94,11 +94,11 @@ const Header: React.FC = () => {
       </div>
 
       {/* Header Ad Banner */}
-      <div className="bg-gray-100 py-2">
+      {/* <div className="bg-gray-100 py-2">
         <div className="max-w-6xl mx-auto px-4">
           <AdBanner placement="header" />
         </div>
-      </div>
+      </div> */}
 
       {/* Main Header */}
       <header className="bg-white shadow-lg sticky top-0 z-50">
