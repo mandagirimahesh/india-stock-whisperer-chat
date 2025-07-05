@@ -249,7 +249,7 @@ const ContactPage: React.FC = () => {
                     <strong>Note:</strong> Fields marked with * are required. We respect your privacy and will never share your contact information with third parties. Please see our Privacy Policy for more details.
                   </p>
                   <p className="text-sm text-gray-600 mt-2">
-                    <strong>Career Resources:</strong> For professional development guidance, visit our partner platform <a href="https://www.dotcareers.net" target=\"_blank" rel="noopener noreferrer\" className="text-primary-600 hover:text-primary-700 underline">DotCareers</a> for comprehensive career advice, resume writing tips, and job search strategies.
+                    <strong>Career Resources:</strong> For professional development guidance, visit our partner platform <a href="https://www.dotcareers.net" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 underline">DotCareers</a> for comprehensive career advice, resume writing tips, and job search strategies.
                   </p>
                 </div>
               </div>
