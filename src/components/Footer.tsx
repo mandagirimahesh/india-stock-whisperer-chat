@@ -54,9 +54,14 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link to="/careers" className="text-gray-400 hover:text-white transition-colors">
-                  Careers
-                </Link>
+                <a 
+                  href="https://www.dotcareers.net" 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-white transition-colors"
+                >
+                  Career Resources
+                </a>
               </li>
               <li>
                 <Link to="/advertise" className="text-gray-400 hover:text-white transition-colors">
