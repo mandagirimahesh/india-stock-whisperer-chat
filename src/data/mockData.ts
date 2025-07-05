@@ -1,7 +1,6 @@
 import { Article, Category } from '../types';
 import { allArticles } from './newArticles';
 import { sportsArticles } from './sportsArticles';
-import { careerArticles } from './careerArticles';
 
 export const categories: Category[] = [
   { id: '1', name: 'Politics', slug: 'politics', color: 'bg-red-500' },
@@ -268,7 +267,7 @@ Public awareness campaigns will accompany the technical rollout, educating users
 ];
 
 // Export all articles combined
-export const articles = [...allArticles, ...originalArticles, ...sportsArticles, ...careerArticles];
+export const articles = [...allArticles, ...originalArticles, ...sportsArticles];
 
 export const trendingTopics = [
   'Federal Reserve Rate Cut',
@@ -293,10 +292,7 @@ export const trendingTopics = [
   'Alzheimer Drug Breakthrough',
   'Dortmund vs Monterrey',
   'Damian Lillard Trade',
-  'Fever vs Lynx WNBA',
-  'Career Development Tips',
-  'Remote Work Success',
-  'Job Market Trends'
+  'Fever vs Lynx WNBA'
 ];
 
 export const breakingNews = [

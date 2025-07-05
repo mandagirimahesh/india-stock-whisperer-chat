@@ -175,15 +175,6 @@ const Header: React.FC = () => {
                         >
                           Contact
                         </Link>
-                        <a
-                          href="https://www.dotcareers.net"
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          onClick={() => setIsDropdownOpen(false)}
-                          className="block px-4 py-2 text-gray-700 hover:bg-gray-50 hover:text-primary-600 transition-colors"
-                        >
-                          Career Resources
-                        </a>
                       </div>
                     </div>
                   )}

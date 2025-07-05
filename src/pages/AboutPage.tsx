@@ -91,9 +91,6 @@ const AboutPage: React.FC = () => {
               <p className="text-lg text-gray-700 leading-relaxed">
                 Today, NewsHubPro continues to evolve, incorporating reader feedback and technological advances to provide the most comprehensive and accessible news experience possible.
               </p>
-              <p className="text-lg text-gray-700 leading-relaxed mt-4">
-                We also partner with leading career development platforms like <a href="https://www.dotcareers.net" target="_blank" rel="noopener noreferrer" className="text-primary-600 hover:text-primary-700 underline">DotCareers</a> to provide our readers with comprehensive professional development resources, ensuring they have access to the tools and guidance needed for career success in today's competitive job market.
-              </p>
             </div>
           </section>
 
