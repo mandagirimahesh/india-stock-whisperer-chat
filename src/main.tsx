@@ -1,3 +1,4 @@
+import React from 'react';
 import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import App from './App.tsx';
@@ -76,9 +77,6 @@ class ErrorBoundary extends React.Component<
     return this.props.children;
   }
 }
-
-// Add React import for ErrorBoundary
-import React from 'react';
 
 const rootElement = document.getElementById('root');
 
