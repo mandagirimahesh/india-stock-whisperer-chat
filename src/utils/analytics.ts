@@ -10,34 +10,50 @@ export const GA_MEASUREMENT_ID = 'G-HY2C26GC6D';
 
 // Initialize Google Analytics
 export const initGA = () => {
-  // GA is already initialized in index.html
-  console.log('Google Analytics initialized with ID:', GA_MEASUREMENT_ID);
+  try {
+    // GA is already initialized in index.html
+    if (typeof window !== 'undefined' && window.gtag) {
+      console.log('Google Analytics initialized with ID:', GA_MEASUREMENT_ID);
+    } else {
+      console.warn('Google Analytics not available');
+    }
+  } catch (error) {
+    console.warn('Google Analytics initialization failed:', error);
+  }
 };
 
 // Track page views
 export const trackPageView = (url: string, title?: string) => {
-  if (typeof window !== 'undefined' && window.gtag) {
-    window.gtag('config', GA_MEASUREMENT_ID, {
-      page_title: title || document.title,
-      page_location: url,
-    });
-    
-    window.gtag('event', 'page_view', {
-      page_title: title || document.title,
-      page_location: url,
-      page_path: new URL(url).pathname,
-    });
+  try {
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('config', GA_MEASUREMENT_ID, {
+        page_title: title || document.title,
+        page_location: url,
+      });
+      
+      window.gtag('event', 'page_view', {
+        page_title: title || document.title,
+        page_location: url,
+        page_path: new URL(url).pathname,
+      });
+    }
+  } catch (error) {
+    console.warn('Analytics tracking failed:', error);
   }
 };
 
 // Track custom events
 export const trackEvent = (action: string, category: string, label?: string, value?: number) => {
-  if (typeof window !== 'undefined' && window.gtag) {
-    window.gtag('event', action, {
-      event_category: category,
-      event_label: label,
-      value: value,
-    });
+  try {
+    if (typeof window !== 'undefined' && window.gtag) {
+      window.gtag('event', action, {
+        event_category: category,
+        event_label: label,
+        value: value,
+      });
+    }
+  } catch (error) {
+    console.warn('Event tracking failed:', error);
   }
 };
 

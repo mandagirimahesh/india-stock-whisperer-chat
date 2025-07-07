@@ -1,5 +1,14 @@
 import { Article, Category } from '../types';
-import { allArticles } from './newArticles';
+// Import with error handling
+let allArticles: any[] = [];
+try {
+  const newArticlesModule = await import('./newArticles');
+  allArticles = newArticlesModule.allArticles || [];
+} catch (error) {
+  console.warn('Failed to load newArticles:', error);
+  allArticles = [];
+}
+
 import { sportsArticles } from './sportsArticles';
 
 export const categories: Category[] = [
