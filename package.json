@@ -6,8 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "build:debug": "vite build --mode development",
     "lint": "eslint .",
     "preview": "vite preview",
+    "preview:build": "npm run build && npm run preview",
     "news-aggregator": "node src/automation/newsAggregator.js",
     "content-processor": "node src/automation/contentProcessor.js",
     "social-publisher": "node src/automation/socialPublisher.js"

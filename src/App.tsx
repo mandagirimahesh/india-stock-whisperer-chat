@@ -21,8 +21,31 @@ const AnalyticsWrapper: React.FC<{ children: React.ReactNode }> = ({ children })
 
 function App() {
   useEffect(() => {
-    // Initialize Google Analytics
-    initGA();
+    try {
+      // Initialize Google Analytics
+      initGA();
+    } catch (error) {
+      console.warn('Analytics initialization failed:', error);
+    }
+  }, []);
+
+  // Add error boundary logging
+  useEffect(() => {
+    const handleError = (event: ErrorEvent) => {
+      console.error('Global error caught:', event.error);
+    };
+
+    const handleUnhandledRejection = (event: PromiseRejectionEvent) => {
+      console.error('Unhandled promise rejection:', event.reason);
+    };
+
+    window.addEventListener('error', handleError);
+    window.addEventListener('unhandledrejection', handleUnhandledRejection);
+
+    return () => {
+      window.removeEventListener('error', handleError);
+      window.removeEventListener('unhandledrejection', handleUnhandledRejection);
+    };
   }, []);
 
   return (
