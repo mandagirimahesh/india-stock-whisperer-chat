@@ -3,6 +3,120 @@ import { Article } from '../types';
 // New comprehensive articles with proper SEO optimization
 export const allArticles: Article[] = [
   {
+    id: '105',
+    title: '2025 MLB All-Star Game: Full Rosters and Notable Highlights',
+    summary: 'The 2025 MLB All-Star Game rosters have been announced, featuring a blend of seasoned stars and emerging talents. The game is set to take place on July 15 at Truist Park in Atlanta.',
+    content: `The 2025 MLB All-Star Game rosters have been officially announced, showcasing a mix of established stars and rising talents. The game, scheduled for July 15 at Truist Park in Atlanta, will feature players from both the American League (AL) and National League (NL), each vying for supremacy in the Midsummer Classic.
+
+**American League Starters:**
+
+- **Catcher:** Cal Raleigh (Seattle Mariners) – Raleigh is having a breakout season, leading all catchers with 33 home runs and a .272 batting average. This marks his first All-Star start.
+
+- **First Base:** Vladimir Guerrero Jr. (Toronto Blue Jays) – A consistent power hitter, Guerrero has 12 home runs and a .278 batting average, earning his fourth All-Star selection.
+
+- **Second Base:** Gleyber Torres (Detroit Tigers) – Torres has been a key contributor to the Tigers' success, with a .280 average and nine home runs, securing his third All-Star appearance.
+
+- **Shortstop:** Jacob Wilson (Oakland Athletics) – The rookie sensation is hitting .339 with nine home runs, making his first All-Star start.
+
+- **Third Base:** José Ramírez (Cleveland Guardians) – A staple in the All-Star lineup, Ramírez boasts a .305 average and 13 home runs, marking his fourth start.
+
+- **Outfielders:** Aaron Judge (New York Yankees), Riley Greene (Detroit Tigers), Javier Báez (Detroit Tigers) – Judge leads the league with a .361 average and 30 home runs, earning his seventh All-Star start. Greene and Báez are making their first All-Star appearances.
+
+- **Designated Hitter:** Ryan O'Hearn (Baltimore Orioles) – O'Hearn has been a surprise standout, hitting .295 with 11 home runs, marking his first All-Star selection.
+
+**National League Starters:**
+
+- **Catcher:** Will Smith (Los Angeles Dodgers) – Smith is having an impressive season with a .320 average and 10 home runs, earning his third All-Star start.
+
+- **First Base:** Freddie Freeman (Los Angeles Dodgers) – A seasoned veteran, Freeman is hitting .308 with 10 home runs, marking his ninth All-Star appearance.
+
+- **Second Base:** Ketel Marte (Arizona Diamondbacks) – Marte has been a consistent performer with a .296 average and 17 home runs, securing his third All-Star start.
+
+- **Shortstop:** Francisco Lindor (New York Mets) – Lindor is hitting .255 with 16 home runs, marking his fifth All-Star selection.
+
+- **Third Base:** Manny Machado (San Diego Padres) – Machado continues to be a force, hitting .292 with 13 home runs, earning his seventh All-Star start.
+
+- **Outfielders:** Ronald Acuña Jr. (Atlanta Braves), Pete Crow-Armstrong (Chicago Cubs), Kyle Tucker (Chicago Cubs) – Acuña is hitting .350 with nine home runs, marking his fifth All-Star start. Crow-Armstrong and Tucker are making their first All-Star appearances.
+
+- **Designated Hitter:** Shohei Ohtani (Los Angeles Dodgers) – Ohtani continues to impress with both bat and arm, hitting .287 with 30 home runs, earning his fifth All-Star start.
+
+**Pitchers:**
+
+- **American League:** Hunter Brown (Houston Astros), Kris Bubic (Kansas City Royals), Aroldis Chapman (Boston Red Sox), Garrett Crochet (Boston Red Sox), Jacob deGrom (Texas Rangers), Max Fried (New York Yankees), Josh Hader (Houston Astros), Yusei Kikuchi (Los Angeles Angels), Andrés Muñoz (Seattle Mariners), Tarik Skubal (Detroit Tigers), Shane Smith (Chicago White Sox), Bryan Woo (Seattle Mariners) – Brown leads the league with a 1.82 ERA, earning his first All-Star selection. Chapman and deGrom are making their first All-Star appearances since 2021.
+
+- **National League:** Jason Adam (San Diego Padres), Matthew Boyd (Chicago Cubs), Edwin Díaz (New York Mets), MacKenzie Gore (Washington Nationals), Clayton Kershaw (Los Angeles Dodgers) – Kershaw, recently becoming the 20th member of the 3,000-strikeout club, is making his 11th All-Star appearance as a special commissioner's selection.
+
+The 2025 All-Star Game promises to be an exciting showcase of baseball talent, with a blend of experienced veterans and emerging stars. Fans can look forward to a thrilling matchup as the AL and NL All-Stars face off at Truist Park.`,
+    author: 'John Doe',
+    publishedAt: '2025-07-07T00:00:00Z',
+    category: { id: '6', name: 'Sports', slug: 'sports', color: 'bg-blue-500' },
+    imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d2/Aerial_View_of_the_Alternative_Baseball_All_Star_Game_field.jpg',
+    tags: ['MLB All-Star Game', '2025 All-Star Roster', 'Baseball', 'All-Star Starters', 'Truist Park'],
+    readTime: 6,
+    isBreaking: true
+  },  
+  {
+    id: '104',
+    title: 'Tesla Stock Rebounds Sharply as Growth Concerns Ease',
+    summary: 'Tesla\'s stock surged nearly 12% as investor confidence returns, alleviating concerns about the company\'s growth and production challenges.',
+    content: `Tesla's stock has experienced a significant rebound, rising almost 12% after weeks of volatility surrounding the company's future. Investors had been rattled by fears of slowing growth, production hurdles, and tightening global economic conditions. However, recent developments suggest that those concerns are easing, leading to the sharp increase in the stock price.
+
+The positive turn comes amidst reports of stronger-than-expected sales and production figures, including a notable increase in demand for Tesla's electric vehicles in both domestic and international markets. While global supply chain issues continue to affect various industries, Tesla's ability to maintain a steady output has contributed to investor optimism.
+
+Tesla's CEO Elon Musk addressed the market during an earnings call last week, discussing the company's plans to expand its production capacity, reduce costs, and increase its global market share. "We are focused on scaling production and enhancing the efficiency of our operations," Musk stated. "This is just the beginning for Tesla as we continue to drive innovation and sustainable growth." Tesla's plans to introduce new models, such as the highly anticipated Cybertruck, also have investors excited about the company's future prospects.
+
+Despite this positive news, concerns about the broader economy remain. Rising interest rates, inflation, and global political uncertainty are still risks that could affect the stock market, and analysts continue to caution that Tesla's stock may face volatility in the coming months. Nonetheless, the company has shown resilience, and its strong brand presence and technological leadership remain key drivers of its success.
+
+Tesla has also been exploring strategic partnerships with various investment companies, including notable figures such as Mark Cuban. These collaborations are expected to fuel Tesla's continued innovation in renewable energy solutions, autonomous driving technology, and other cutting-edge areas.
+
+Tesla's stock price has fluctuated significantly in recent months, with some speculating that it could see additional growth if the company continues to demonstrate its ability to overcome challenges. Other industry leaders, including Sam Altman, have expressed interest in Tesla's potential for future expansion and long-term sustainability.
+
+In recent weeks, Musk's influence within the company and his venture into politics with the Musk America Party have drawn attention, with some speculating that these efforts could lead to more regulatory changes favorable to Tesla. However, critics argue that his political ambitions may introduce unwanted distractions for the company.
+
+On the technical front, analysts have pointed out that Tesla's upcoming stock split could create new opportunities for investors, making the stock more accessible to retail traders. This move is expected to further broaden Tesla's investor base and align the stock with similar high-growth tech companies.
+
+Looking ahead, Tesla's next earnings report is expected to shed more light on the company's future prospects, including potential effects of the global economic environment. The company's ability to navigate these uncertainties will likely determine its ability to sustain growth in the long term.
+
+In summary, Tesla's stock has recovered sharply after a period of heightened volatility. While concerns about growth and production remain, the company's strong sales figures, innovations in clean energy, and partnerships with investment companies provide a strong foundation for continued success. Tesla's future remains promising, though the broader economic environment will continue to influence its stock price in the coming months.`,
+    author: 'Sasha Samarras',
+    publishedAt: '2024-04-24T09:30:00Z',
+    category: { id: '2', name: 'Business', slug: 'business', color: 'bg-green-500' },
+    imageUrl: 'https://live.staticflickr.com/65535/52629860277_f2152b85f4_b.jpg',
+    tags: ['Tesla Stock', 'TSLA', 'Investment Companies', 'Mark Cuban', 'Musk America Party', 'Stock Split', 'BTC', 'Sam Altman'],
+    readTime: 7,
+    isBreaking: true
+  },
+  {
+    id: '103',
+    title: 'Sid Wilson Engaged to Kelly Osbourne at Ozzy Osbourne\'s Final Show',
+    summary: 'Sid Wilson proposes to Kelly Osbourne during Ozzy Osbourne\'s farewell concert, marking a personal milestone amidst rock history.',
+    content: `
+      Sid Wilson, the enigmatic turntablist of Slipknot, has recently made headlines not for his electrifying performances but for a deeply personal moment that unfolded during a historic event in the rock world.
+
+      A Milestone Moment
+      On July 5, 2025, at Villa Park in Birmingham, England, Ozzy Osbourne and Black Sabbath delivered their final performance, marking the end of an era in heavy metal. The "Back to the Beginning" concert, a star-studded tribute to the band's legacy, featured performances by Metallica, Guns N' Roses, and more. However, amidst the grandeur of the evening, a touching personal moment occurred backstage.
+      Sid Wilson, who has been in a relationship with Kelly Osbourne since early 2022, seized the opportunity to propose to her in front of her family, including her parents, Ozzy and Sharon Osbourne. In a video shared by Kelly on Instagram, Sid expressed his deep affection for her and asked, "Kelly, will you marry me?" The moment was met with cheers and applause, culminating in a heartfelt embrace between the couple. Ozzy Osbourne, known for his humor, jokingly interjected, "F**k off, you're not marrying my daughter!" adding a lighthearted touch to the emotional scene.
+
+      A Journey of Friendship and Love
+      Sid and Kelly's relationship is rooted in a long-standing friendship that began in 1999 during the Ozzfest tour. Despite their initial connection, it wasn't until over two decades later that they began dating. Their bond deepened, and in late 2022, they welcomed their son, Sidney, into the world. Kelly has often described Sid as her "best friend" and "soulmate," reflecting the depth of their relationship.
+
+      ### Overcoming Adversity
+      Before this joyous occasion, Sid faced a challenging period in August 2024 when he suffered severe burns from a bonfire explosion on his Iowa farm. The accident occurred when Sid added gasoline to a burn pile, unaware of lingering vapors, leading to a sudden explosion. He sustained second-degree burns on his face and arms, resulting in hospitalization and a significant recovery process. Despite the severity of the injuries, Sid maintained a positive outlook, expressing gratitude for his recovery and emphasizing the importance of safety when handling fire.
+
+      Looking Ahead
+      Sid Wilson's journey has been one of resilience and love. From his recovery after the accident to his heartfelt proposal to Kelly Osbourne, Sid has shown strength both on and off the stage. As he continues to support Slipknot's endeavors, including the anticipated release of the experimental album *Look Outside Your Window*, fans can look forward to more from this multifaceted artist.
+
+      For now, Sid and Kelly's engagement marks a new chapter in their lives, celebrated amidst the backdrop of rock history. Their story serves as a reminder of the enduring power of love and friendship, even in the most unexpected of circumstances.
+    `,
+    author: 'NewsHubPro',
+    publishedAt: '2025-07-07T00:00:00Z',
+    category: { id: '6', name: 'Entertainment', slug: 'entertainment', color: 'bg-blue-500' },
+    imageUrl: 'https://s.yimg.com/ny/api/res/1.2/_tVMDSr.RzeHPnn1FLNnAA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https%3A//media.zenfs.com/en/people_218/ba2484c53c344ea1d85598a11d23ea54',
+    tags: ['Sid Wilson', 'Kelly Osbourne', 'Ozzy Osbourne', 'Slipknot', 'engagement'],
+    readTime: 6,
+    isBreaking: true,
+  },
+  {
     id: '101',
     title: 'Federal Reserve Announces Emergency Rate Cut Amid Banking Sector Concerns',
     summary: 'The Federal Reserve implements an unprecedented 0.75% emergency rate cut as regional banking instability threatens broader financial markets.',
@@ -41,7 +155,7 @@ Looking ahead, the Fed indicated that future policy decisions will depend heavil
 
 The Quantum Condor processor features 1,121 qubits, making it the most powerful quantum computer ever built. This represents a dramatic increase from IBM's previous 433-qubit Osprey processor and demonstrates the company's rapid progress in scaling quantum systems.
 
-Dr. Jay Gambetta, IBM's Vice President of Quantum Computing, described the achievement as a "watershed moment" for the field. "Reaching 1000 qubits is not just about the numbers," Gambetta explained. "It's about crossing the threshold where quantum computers can begin to solve problems that are practically impossible for classical computers."
+Dr. Jay Gambetta, IBM's Vice President of Quantum Computing, described the achievement as "watershed moment" for the field. "Reaching 1000 qubits is not just about the numbers," Gambetta explained. "It's about crossing the threshold where quantum computers can begin to solve problems that are practically impossible for classical computers."
 
 The breakthrough has significant implications for multiple industries, including pharmaceuticals, financial services, logistics, and materials science. Quantum computers excel at solving optimization problems and simulating molecular interactions, making them particularly valuable for drug discovery and materials research.
 
