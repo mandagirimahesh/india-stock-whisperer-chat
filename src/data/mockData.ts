@@ -1,7 +1,6 @@
 import { Article, Category } from '../types';
 import { allArticles } from './newArticles';
 import { sportsArticles } from './sportsArticles';
-import { trendingArticle } from './trendingArticle';
 
 export const categories: Category[] = [
   { id: '1', name: 'Politics', slug: 'politics', color: 'bg-red-500' },
@@ -268,7 +267,7 @@ Public awareness campaigns will accompany the technical rollout, educating users
 ];
 
 // Export all articles combined
-export const articles = [trendingArticle, ...allArticles, ...originalArticles, ...sportsArticles];
+export const articles = [...allArticles, ...originalArticles, ...sportsArticles];
 
 export const trendingTopics = [
   'Federal Reserve Rate Cut',
