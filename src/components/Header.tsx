@@ -3,7 +3,7 @@ import { Search, Menu, X, Bell, User, ChevronDown } from 'lucide-react';
 import { Link, useNavigate } from 'react-router-dom';
 import { categories, articles } from '../data/mockData';
 import { trackSearch, trackNewsletterSignup, trackCategoryView } from '../utils/analytics';
-import AdBanner from './AdBanner';
+
 
 const Header: React.FC = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -42,7 +42,7 @@ const Header: React.FC = () => {
       const filteredArticles = articles.filter(article =>
         article.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
         article.summary.toLowerCase().includes(searchQuery.toLowerCase()) ||
-        article.tags.some(tag => tag.toLowerCase().includes(searchQuery.toLowerCase()))
+        article.tags.some((tag: string) => tag.toLowerCase().includes(searchQuery.toLowerCase()))
       ).slice(0, 5);
       
       setSearchResults(filteredArticles);
@@ -93,12 +93,6 @@ const Header: React.FC = () => {
         </div>
       </div>
 
-      {/* Header Ad Banner */}
-      {/* <div className="bg-gray-100 py-2">
-        <div className="max-w-6xl mx-auto px-4">
-          <AdBanner placement="header" />
-        </div>
-      </div> */}
 
       {/* Main Header */}
       <header className="bg-white shadow-lg sticky top-0 z-50">

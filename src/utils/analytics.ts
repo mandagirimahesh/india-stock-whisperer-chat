@@ -12,7 +12,7 @@ export const GA_MEASUREMENT_ID = 'G-HY2C26GC6D';
 export const initGA = () => {
   try {
     // GA is already initialized in index.html
-    if (typeof window !== 'undefined' && window.gtag) {
+    if (typeof window !== 'undefined' && window.gtag && typeof window.gtag === 'function') {
       console.log('Google Analytics initialized with ID:', GA_MEASUREMENT_ID);
     } else {
       console.warn('Google Analytics not available');
@@ -73,7 +73,7 @@ export const trackSearch = (searchTerm: string) => {
 };
 
 // Track social shares
-export const trackSocialShare = (platform: string, url: string, title: string) => {
+export const trackSocialShare = (platform: string, _url: string, title: string) => {
   trackEvent('share', 'social', `${platform}: ${title}`);
 };
 

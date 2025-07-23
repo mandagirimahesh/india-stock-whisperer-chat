@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { useParams, Link, useNavigate } from "react-router-dom";
 import {
   Calendar,
@@ -17,7 +17,7 @@ import ArticleCard from "../components/ArticleCard";
 import SEOHead from "../components/SEOHead";
 import AdBanner from "../components/AdBanner";
 import { useAnalytics } from "../hooks/useAnalytics";
-import { trackSocialShare, trackExternalLink } from "../utils/analytics";
+import { trackSocialShare } from "../utils/analytics";
 import ReactMarkdown from "react-markdown";
 
 const ArticlePage: React.FC = () => {
@@ -41,10 +41,10 @@ const ArticlePage: React.FC = () => {
             .toLowerCase()
             .replace(/[^\w\s-]/g, "")
             .replace(/\s+/g, "-") === articleSlug)
-    );
+    ) || null;
   } else if (id) {
     // Legacy URL structure - find by ID and redirect to new URL
-    article = articles.find((a) => a.id === id);
+    article = articles.find((a) => a.id === id) || null;
     if (article) {
       const newSlug =
         article.slug ||

@@ -8,7 +8,7 @@ import { trackNewsletterSignup } from '../utils/analytics';
 const Sidebar: React.FC = () => {
   const [email, setEmail] = useState('');
   const trendingArticles = articles
-    .filter((article) => article.isTrending)
+    .filter((article) => 'isTrending' in article && article.isTrending)
     .slice(0, 4);
   const recentArticles = articles.slice(0, 5);
 

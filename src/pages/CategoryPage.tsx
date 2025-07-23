@@ -81,7 +81,7 @@ const CategoryPage: React.FC = () => {
       }
     };
 
-    return descriptions[categoryName.toLowerCase()] || {
+    return descriptions[categoryName.toLowerCase() as keyof typeof descriptions] || {
       overview: `Comprehensive ${categoryName.toLowerCase()} news coverage and analysis.`,
       scope: `Latest ${categoryName.toLowerCase()} developments and updates.`,
       trends: `Current trends and developments in ${categoryName.toLowerCase()}.`,

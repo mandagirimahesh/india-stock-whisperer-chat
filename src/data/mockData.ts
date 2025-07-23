@@ -1,13 +1,4 @@
 import { Article, Category } from '../types';
-// Import with error handling
-let allArticles: any[] = [];
-try {
-  const newArticlesModule = await import('./newArticles');
-  allArticles = newArticlesModule.allArticles || [];
-} catch (error) {
-  console.warn('Failed to load newArticles:', error);
-  allArticles = [];
-}
 
 import { sportsArticles } from './sportsArticles';
 import { latestArticles } from './latestArticles';
@@ -277,7 +268,7 @@ Public awareness campaigns will accompany the technical rollout, educating users
 ];
 
 // Export all articles combined
-export const articles = [...latestArticles, ...allArticles, ...originalArticles, ...sportsArticles];
+export const articles = [...latestArticles, ...originalArticles, ...sportsArticles];
 
 export const trendingTopics = [
   'Federal Reserve Rate Cut',

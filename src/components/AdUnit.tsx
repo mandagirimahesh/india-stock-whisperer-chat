@@ -19,7 +19,7 @@ const AdUnit: React.FC<AdUnitProps> = ({
   style = { display: 'block' },
   className = ''
 }) => {
-  const adRef = useRef<HTMLInsElement>(null);
+  const adRef = useRef<HTMLModElement>(null);
   const adInitialized = useRef(false);
 
   useEffect(() => {
