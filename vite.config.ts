@@ -1,20 +1,10 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
-import path from 'path';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  plugins: [
-    react(),
-    // componentTagger temporarily disabled until build:dev script is added
-    // mode === 'development' && componentTagger(),
-  ].filter(Boolean),
+  plugins: [react()],
   base: '/',
-  resolve: {
-    alias: {
-      "@": path.resolve(__dirname, "./src"),
-    },
-  },
   define: {
     'process.env.NODE_ENV': JSON.stringify(mode === 'development' ? 'development' : 'production')
   },
@@ -47,8 +37,8 @@ export default defineConfig(({ mode }) => ({
     exclude: ['lucide-react']
   },
   server: {
-    host: "::",
     port: 8080,
+    host: true,
     strictPort: false
   },
   preview: {

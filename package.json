@@ -19,7 +19,6 @@
     "axios": "^1.6.0",
     "cheerio": "^1.0.0-rc.12",
     "dotenv": "^16.3.1",
-    "lovable-tagger": "^1.1.8",
     "lucide-react": "^0.344.0",
     "natural": "^6.12.0",
     "node-cron": "^3.0.3",
