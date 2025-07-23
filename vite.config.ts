@@ -1,13 +1,13 @@
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
-import { componentTagger } from 'lovable-tagger';
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
   plugins: [
     react(),
-    mode === 'development' && componentTagger(),
+    // componentTagger temporarily disabled until build:dev script is added
+    // mode === 'development' && componentTagger(),
   ].filter(Boolean),
   base: '/',
   resolve: {
